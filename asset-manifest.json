@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/free-img/static/css/main.125fcfa7.chunk.css",
+    "main.js": "/free-img/static/js/main.40e670b2.chunk.js",
+    "main.js.map": "/free-img/static/js/main.40e670b2.chunk.js.map",
+    "runtime-main.js": "/free-img/static/js/runtime-main.e577962e.js",
+    "runtime-main.js.map": "/free-img/static/js/runtime-main.e577962e.js.map",
+    "static/js/2.e7774905.chunk.js": "/free-img/static/js/2.e7774905.chunk.js",
+    "static/js/2.e7774905.chunk.js.map": "/free-img/static/js/2.e7774905.chunk.js.map",
+    "static/js/3.0eb2df16.chunk.js": "/free-img/static/js/3.0eb2df16.chunk.js",
+    "static/js/3.0eb2df16.chunk.js.map": "/free-img/static/js/3.0eb2df16.chunk.js.map",
+    "index.html": "/free-img/index.html",
+    "static/css/main.125fcfa7.chunk.css.map": "/free-img/static/css/main.125fcfa7.chunk.css.map",
+    "static/js/2.e7774905.chunk.js.LICENSE.txt": "/free-img/static/js/2.e7774905.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/free-img/static/media/Mellinda Lopez.b23f3b22.ttf",
+    "static/media/flaticon.css": "/free-img/static/media/flaticon.ac033eb3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e577962e.js",
+    "static/js/2.e7774905.chunk.js",
+    "static/css/main.125fcfa7.chunk.css",
+    "static/js/main.40e670b2.chunk.js"
+  ]
+}
