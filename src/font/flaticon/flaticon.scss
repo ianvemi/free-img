@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?22a0aa3bf0266834568312fad17b20fd") format("truetype"),
+url("./flaticon.woff?22a0aa3bf0266834568312fad17b20fd") format("woff"),
+url("./flaticon.woff2?22a0aa3bf0266834568312fad17b20fd") format("woff2"),
+url("./flaticon.eot?22a0aa3bf0266834568312fad17b20fd#iefix") format("embedded-opentype"),
+url("./flaticon.svg?22a0aa3bf0266834568312fad17b20fd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "loupe": "\f101",
+    "like": "\f102",
+    "oval-black-speech-bubble": "\f103",
+    "eye": "\f104",
+    "insert-picture-icon": "\f105",
+    "play-button": "\f106",
+    "download-circular-button": "\f107",
+    "full-size": "\f108",
+);
+
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-oval-black-speech-bubble:before {
+    content: map-get($flaticon-map, "oval-black-speech-bubble");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon-map, "eye");
+}
+.flaticon-insert-picture-icon:before {
+    content: map-get($flaticon-map, "insert-picture-icon");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-download-circular-button:before {
+    content: map-get($flaticon-map, "download-circular-button");
+}
+.flaticon-full-size:before {
+    content: map-get($flaticon-map, "full-size");
+}
